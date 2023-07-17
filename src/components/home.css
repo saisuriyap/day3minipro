@@ -1,32 +1,112 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
- }
- .homepic{
-     width: 100%;
-     background-size: cover;
-     height: 100vh;
-     overflow: auto;
-     opacity: 0.5%;
- }
+  .home-content{
+  
+    display: flex;
+   
+    margin-left: 70px;
+    justify-content: center;
+    /* padding-top: 30%; */
+  /* align-items: center; */
  
- .text{
+    
+ 
+    line-height: 2;
+  }
+  .homebody{
+    color: White;
     background-color: black;
-     text-align: center;
-     padding: 18%;
-     background-repeat: no-repeat;
-     background-size: cover;                                                                                       
-     padding-bottom: 400px;
-     /* opacity: 0.5; */
-   }
-   .text1{
-     color: white;
-     font-size: 5rem;
-     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   }
-   .text2{
-     color:white;
-     font-size: 2rem;
-     font-family: Fasthand;
-   }
+    padding-bottom: 20rem;
+  }
+
+    .continue-btn-home{
+      background-image: linear-gradient(to right, #096953 0%, #35f5ae  51%, #a7f5d8  100%);
+      color: #ffffff;
+      padding-left: 80px;
+      padding-right: 80px;
+      padding-top: 30px;
+      padding-bottom: 15px;
+      font-size: 20px;
+     font-family: 'Poppins',sans-serif;
+   
+      font-weight: bold;
+      text-decoration: none;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 8px;
+      /* transition: transform .2s; */
+      cursor: pointer;
+      
+    }
+  /* .continue-btn-home:hover{
+    transform: scale(1.5);
+  } */
+ 
+  .home-side-image{
+    /* background-image: url("C:\Users\ravin\OneDrive\Pictures\side-pc2.png"); */
+    width: 500px;
+    
+  height: 758px;  
+
+  background-size: cover;
+ 
+  border-radius: 12px 12px 12px 12px;
+  }
+  .home-intro-content{
+    padding-top: 200px;
+    font-size: 50px;
+    max-width: 900px;
+    
+  }
+  .home-content-two {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-right: 100px;
+    
+  }
+
+  .step-heading {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+.step-left h2{
+  height: 100px;
+}
+  .step-left{
+    
+    width: 50%;
+    height: 300px;
+    text-align: auto;
+    max-width: 400px;
+   padding-bottom: 10%;
+   padding: 40px;
+  }
+  .step-right{
+    width: 50%;
+    height: 300px;
+    text-align: auto;
+    max-width: 400px;
+    
+  padding-bottom: 10%;
+  padding: 30px;
+  }
+
+.step-about{
+  display: flex;
+
+  flex-direction: row;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.img-home{
+
+  width: 300px;
+  height: 280px;
+  padding-top: 5%;
+}
+.main-img-home{
+  width: 400px;
+  height: 400px;
+  padding-top: 30%;
+  padding-left: 20%;
+}

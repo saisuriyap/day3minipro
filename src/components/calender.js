@@ -1,7 +1,10 @@
 import React from "react";
+import "./calender.css";
 export default function Scheduletimes() {
   return (
+    <div className="calen">
     <div className="container">
+      {/* <h1 className="h1">SCHEDULE YOUR MEET </h1> */}
       <div className="day-column">
         <h2>Add Your Business hours</h2>
         <ul>
@@ -107,6 +110,7 @@ export default function Scheduletimes() {
           </li>
         </ul>
       </div>
+    </div>
     </div>
   );
 }

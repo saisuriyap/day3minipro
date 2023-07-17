@@ -32,7 +32,9 @@
         margin-left: 20px;
         border-radius: 10px;
   }
-
+/* .h1{
+  color: white;
+} */
 
  
   .footer {
@@ -44,7 +46,10 @@
   .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding-top: 5%;
+    /* padding: 0 20px; */
+    background-color: #2b3238;
+  color: white;
   }
   
   .footer-content {
@@ -61,7 +66,10 @@
       
       
   }
-  
+  .calen{
+    background-color: black;
+    padding-bottom: 10%;
+  }
   .footer-section {
     flex: 1;
   }

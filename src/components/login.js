@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 import './login.css';
 import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { login } from './Redux/usersslice';
 const LoginPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-
+  const dispatch = useDispatch();
+  dispatch(login({name:email, password:password,loggedIn:true}));
   const handleSubmit = (e) => {
     e.preventDefault();
+    window.alert('Login successfully!');
     // Add your authentication logic here
     // For simplicity, let's just log the email and password
     console.log('Email:', email);
@@ -50,3 +54,4 @@ const LoginPage = () => {
 };
 
 export default LoginPage;
+
